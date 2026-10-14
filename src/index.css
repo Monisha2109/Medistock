@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Hide the browser's built-in password reveal controls */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
